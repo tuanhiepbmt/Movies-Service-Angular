@@ -1,0 +1,17 @@
+<div>
+    <h1>Movies</h1>
+    <table>
+        <tr>
+            <th class="no">No.</th>
+            <th class="title">Title</th>
+            <th class="tagline">Tagline</th>
+            <th class="no">Released</th>
+        </tr>
+        <tr *ngFor="let movie of movies; let i=index">
+            <td>{{ i }}</td>
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.tagline }}</td>
+            <td>{{ movie.released }}</td>
+        </tr>
+    </table>
+</div>

@@ -1,0 +1,23 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+td,
+th {
+    border: 1px solid #3aa5ed;
+    text-align: center;
+    padding: 8px;
+    width: 30%;
+}
+
+tr:nth-child(even) {
+    background-color: #a6cfef;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
