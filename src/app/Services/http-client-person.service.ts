@@ -19,4 +19,11 @@ export class HttpClientPersonService {
     const url=`${this.REST_API}/api/persons`;
     return this.http.get<any>(url,this.httpOptions)
   }
+
+
+
 }
+
+
+
+
