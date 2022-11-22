@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MoviesComponent } from './component/movies/movies.component';
 import { PersonsComponent } from './component/persons/persons.component';
+import { FdsaComponent } from './component/fdsa/fdsa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MoviesComponent,
-    PersonsComponent
+    PersonsComponent,
+    FdsaComponent
   ],
   imports: [
     BrowserModule,
